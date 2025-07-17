@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ochoco Capital Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --light-blue: #98bcd2;
+      --mid-blue: #387cab;
+      --dark-blue: #2c507c;
+      --font: 'Montserrat', Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: #111;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      background-color: #fff;
+      color: var(--dark-blue);
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      height: 48px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: var(--dark-blue);
+      font-weight: 600;
+    }
+
+    /* Hero Section */
+    .hero-text {
+      text-align: center;
+      padding: 3rem 1rem 0;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero-text h1 {
+      font-size: 2rem;
+      color: var(--dark-blue);
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      color: var(--mid-blue);
+    }
+
+    /* Strategy Section */
+    .strategies {
+      padding: 3rem 1rem;
+      text-align: center;
+      background-color: var(--dark-blue);
+      color: white;
+    }
+
+    .strategies h2 {
+      color: white;
+    }
+
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto 0;
+    }
+
+    .strategy {
+      background: var(--light-blue);
+      color: #000;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Quote Section */
+    .quote {
+      background-color: #fff;
+      color: var(--dark-blue);
+      padding: 3rem 1rem;
+      text-align: center;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+    }
+
+    .quote-image {
+      height: 64px;
+      margin-bottom: 1rem;
+    }
+
+    .quote blockquote {
+      font-style: italic;
+    }
+
+    .quote span {
+      display: block;
+      margin-top: 1rem;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--mid-blue);
+    }
+
+    /* Blog Section */
+    .insights {
+      padding: 3rem 1rem;
+      background: var(--mid-blue);
+      text-align: center;
+      color: white;
+    }
+
+    .insights h2 {
+      color: white;
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 2rem auto 0;
+    }
+
+    .blog-card {
+      background: white;
+      color: #000;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    /* Footer */
+    footer {
+      background: #fff;
+      color: var(--dark-blue);
+      padding: 2rem 1rem;
+      text-align: center;
+      border-top: 1px solid #ddd;
+    }
+
+    .footer-logo {
+      height: 40px;
+      margin-bottom: 1rem;
+    }
+
+    footer nav a {
+      color: var(--mid-blue);
+      margin: 0 0.5rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1rem;
+      }
+
+      .hero-text h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <a href="/index.html">
+        <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Logo" class="logo">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/performance.html">Performance</a></li>
+          <li><a href="/quarterly-reports.html">Quarterly Reports</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero-text">
+    <h1>Positioning Capital for Long-Term Growth</h1>
+    <p>Ochoco Capital Management is focused on high-growth equity investments guided by fundamental research and strategic foresight.</p>
+  </div>
+
+  <!-- Strategy Section -->
+  <section class="strategies">
+    <h2>Our Investment Strategies</h2>
+    <div class="strategy-grid">
+      <div class="strategy">
+        <h3>Growth Equity</h3>
+        <p>Investing in high-conviction growth stocks across sectors and geographies.</p>
+      </div>
+      <div class="strategy">
+        <h3>Sector Innovation</h3>
+        <p>Targeting disruptive technologies and long-term structural trends.</p>
+      </div>
+      <div class="strategy">
+        <h3>Global Expansion</h3>
+        <p>Opportunities across developed and emerging markets with scalable upside.</p>
+      </div>
+      <div class="strategy">
+        <h3>Risk-Adjusted Alpha</h3>
+        <p>Combining qualitative insights with data-driven risk models.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="quote">
+    <img src="https://i.ibb.co/svKwJbrW/ochoco-capital-management-LOGO.png" alt="Founder Photo" class="quote-image">
+    <blockquote>
+      “In uncertain markets, our commitment to deep research and long-term vision defines our edge.”
+      <span>— Steve Weinstein, Founder and Fund Manager</span>
+    </blockquote>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="insights">
+    <h2>From Our Quarterly Reports</h2>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <h4>Q2 Market Outlook</h4>
+        <p>A breakdown of shifting macro factors and how we're adapting portfolio weightings.</p>
+      </div>
+      <div class="blog-card">
+        <h4>Growth vs. Value in 2025</h4>
+        <p>Where fundamentals are pointing us—and why we're leaning into selective risk.</p>
+      </div>
+      <div class="blog-card">
+        <h4>Tech Trends Watchlist</h4>
+        <p>From AI to biotech, where innovation continues to drive opportunity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Logo Horizontal" class="footer-logo">
+    <p>&copy; 2025 Ochoco Capital Management. All rights reserved.</p>
+    <nav>
+      <a href="/about.html">About</a> |
+      <a href="/performance.html">Performance</a> |
+      <a href="/quarterly-reports.html">Quarterly Reports</a> |
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </footer>
+
+</body>
+</html>

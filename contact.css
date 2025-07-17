@@ -1,0 +1,142 @@
+:root {
+  --light-blue: #98bcd2;
+  --mid-blue: #387cab;
+  --dark-blue: #2c507c;
+  --font: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: #111;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  color: var(--dark-blue);
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 48px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+/* Contact Form Section */
+.contact-section {
+  padding: 3rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: var(--dark-blue);
+  margin-bottom: 2rem;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.vertical-form label {
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.vertical-form input,
+.vertical-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.vertical-form button {
+  background-color: var(--mid-blue);
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.vertical-form button:hover {
+  background-color: var(--dark-blue);
+}
+
+/* Thank You Message */
+.thank-you-message {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #cce;
+  border-radius: 6px;
+  background-color: var(--light-blue);
+  color: #0a0a0a;
+}
+
+/* Footer */
+footer {
+  background: #fff;
+  color: var(--dark-blue);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+footer nav a {
+  color: var(--mid-blue);
+  margin: 0 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+}
