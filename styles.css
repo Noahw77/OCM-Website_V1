@@ -167,3 +167,74 @@ footer {
     margin-bottom: 1rem;
   }
 }
+
+/* Quarterly Reports Page Styles */
+.report-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-logo img {
+  max-width: 200px;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.report-hero-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.report-hero-content img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.report-hero-content div {
+  width: 60%;
+}
+
+.year-dropdowns {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.details-summary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.details-content {
+  margin-left: 1.5rem;
+}
+
+.report-disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.report-disclaimer .text {
+  flex: 1;
+}
+
+.report-disclaimer img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
