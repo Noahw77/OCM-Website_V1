@@ -26,6 +26,14 @@ a {
   border-bottom: 1px solid #ddd;
 }
 
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
