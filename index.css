@@ -122,9 +122,13 @@ nav a {
 }
 
 .quote-image {
-  height: 64px;
-  margin-bottom: 1rem;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
+
 
 .quote blockquote {
   font-style: italic;
