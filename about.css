@@ -12,34 +12,6 @@ a {
   text-decoration: none;
 }
 
-.sticky-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  flex-wrap: wrap;
-}
-
-.logo {
-  height: 48px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .hero-text {
   text-align: center;
   padding: 3rem 1rem;
@@ -130,22 +102,4 @@ a {
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-}
-
-footer {
-  background: #fff;
-  text-align: center;
-  border-top: 1px solid #ddd;
-  padding: 2rem 1rem;
-}
-
-.footer-logo img {
-  height: 40px;
-}
-
-.footer-links {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
 }
