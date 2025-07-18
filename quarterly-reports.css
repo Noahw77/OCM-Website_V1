@@ -8,13 +8,19 @@ body {
 /* HERO SECTION */
 .hero-section {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero-logo {
   max-width: 300px;
-  display: block;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 1.5rem;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .hero-content {
@@ -34,11 +40,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hero-text {
-  max-width: 500px;
-  text-align: left;
 }
 
 /* DROPDOWN SECTION */
@@ -105,21 +106,26 @@ body {
 .disclaimer-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 3rem 1rem;
   flex-wrap: wrap;
   gap: 2rem;
   background-color: #fff;
 }
 
+.disclaimer-content {
+  max-width: 600px;
+  text-align: center;
+}
+
 .disclaimer-logo {
   max-height: 80px;
+  margin: 0 auto 1rem;
 }
 
 .disclaimer-text {
-  flex: 1;
-  min-width: 280px;
-  max-width: 600px;
+  font-size: 1rem;
+  padding: 0 1rem;
 }
 
 .disclaimer-graphic-placeholder {
@@ -129,5 +135,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
+
