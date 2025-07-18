@@ -131,7 +131,8 @@ footer nav a {
 
 .blog-section {
   background-color: var(--light-blue);
-  padding: 2rem 1rem;
+  padding: 3rem 1rem 0;
+  margin-bottom: 0;
 }
 
 .blog-grid {
@@ -140,6 +141,7 @@ footer nav a {
   gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .blog-card {
@@ -147,13 +149,13 @@ footer nav a {
   color: #000;
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
   text-align: left;
 }
 
 .view-all {
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem 0 0;
 }
 
 .view-all a {
@@ -170,5 +172,5 @@ footer nav a {
   background-color: var(--light-blue);
   padding: 3rem 1rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 0;
 }
