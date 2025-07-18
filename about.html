@@ -11,7 +11,7 @@
 <body>
 
    <!-- Header -->
-<div id="header.html"></div>
+<div id="header-placeholder"></div>
 
   <!-- Hero Section -->
   <section class="hero-text">
@@ -63,7 +63,22 @@
   </section>
 
   <!-- Footer -->
-  <div id="footer.html"></div>
+  <div id="footer-placeholder"></div>
+
+  <!-- Load Header and Footer -->
+  <script>
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header-placeholder").innerHTML = data;
+    });
+
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
 
 </body>
 </html>
