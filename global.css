@@ -134,3 +134,51 @@ footer {
   font-weight: bold;
   color: var(--mid-blue);
 }
+
+/* Clean navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Investor Log In button style */
+.login-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--mid-blue);
+  border-radius: 6px;
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: var(--mid-blue);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Responsive: mobile stacking */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+}
