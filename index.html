@@ -6,6 +6,7 @@
   <title>
    Ochoco Capital Management
   </title>
+  <script src="latest-blog.js" defer></script>
   <!-- Link to the corresponding CSS file -->
   <link href="index.css" rel="stylesheet"/>
   <!-- Import Montserrat font -->
@@ -278,37 +279,33 @@
   </div>
 </section>
   <!-- Blog Section -->
-  <section class="insights">
-   <h2>
-    Recent Insights
-   </h2>
-   <div class="blog-grid">
+<section class="insights">
+  <h2>Recent Insights</h2>
+  <div class="blog-grid">
+
+    <!-- X Post Embed #1 -->
     <div class="blog-card">
-     <h4>
-      Q2 Market Outlook
-     </h4>
-     <p>
-      A breakdown of shifting macro factors and how we're adapting portfolio weightings.
-     </p>
+      <blockquote class="twitter-tweet" data-theme="light">
+        <a href="https://twitter.com/SteveWeinstein/status/1234567890123456789"></a>
+      </blockquote>
     </div>
+
+    <!-- X Post Embed #2 -->
     <div class="blog-card">
-     <h4>
-      Growth vs. Value in 2025
-     </h4>
-     <p>
-      Where fundamentals are pointing us—and why we're leaning into selective risk.
-     </p>
+      <blockquote class="twitter-tweet" data-theme="light">
+        <a href="https://twitter.com/SteveWeinstein/status/9876543210987654321"></a>
+      </blockquote>
     </div>
-    <div class="blog-card">
-     <h4>
-      Tech Trends Watchlist
-     </h4>
-     <p>
-      From AI to biotech, where innovation continues to drive opportunity.
-     </p>
+
+    <!-- Dynamic Latest Blog Post -->
+    <div id="latest-blog-post" class="blog-card">
+      <!-- JS will auto-insert content here -->
     </div>
-   </div>
-  </section>
+
+  </div>
+  <script src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
+  <script src="latest-blog.js" defer></script>
+</section>
 
   <!-- Footer -->
   <footer>
