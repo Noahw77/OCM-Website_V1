@@ -128,12 +128,3 @@ body {
   padding: 0 1rem;
 }
 
-.disclaimer-graphic-placeholder {
-  width: 300px;
-  height: 150px;
-  background-color: #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
