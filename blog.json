@@ -1,0 +1,33 @@
+
+[
+  {
+    "title": "Q2 Market Outlook",
+    "date": "2025-07-01",
+    "excerpt": "A breakdown of shifting macro factors and how we're adapting portfolio weightings.",
+    "link": "blog-q2-market-outlook.html"
+  },
+  {
+    "title": "Growth vs. Value in 2025",
+    "date": "2025-06-15",
+    "excerpt": "Where fundamentals are pointing us—and why we’re leaning into selective risk.",
+    "link": "blog-growth-vs-value.html"
+  },
+  {
+    "title": "Tech Trends Watchlist",
+    "date": "2025-05-18",
+    "excerpt": "From AI to biotech, where innovation continues to drive opportunity.",
+    "link": "blog-tech-trends.html"
+  },
+  {
+    "title": "Emerging Markets Overview",
+    "date": "2025-04-20",
+    "excerpt": "Opportunities and risks in developing economies.",
+    "link": "blog-emerging-markets.html"
+  },
+  {
+    "title": "Inflation and Rates",
+    "date": "2025-03-30",
+    "excerpt": "The outlook for inflation and implications on monetary policy.",
+    "link": "blog-inflation-rates.html"
+  }
+]
