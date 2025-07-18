@@ -1,0 +1,76 @@
+
+/* Quarterly Reports Page Styles */
+
+/* Section Layout */
+.quarterly-top-section, .quarterly-disclaimer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.quarterly-top-section {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.quarterly-top-section .report-logo,
+.quarterly-disclaimer-section .disclaimer-logo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.quarterly-top-section .report-content,
+.quarterly-disclaimer-section .disclaimer-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.quarterly-dropdown-section {
+  background-color: #e6eff7;
+  padding: 2rem;
+  text-align: center;
+}
+
+.quarterly-dropdown-section details {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  font-size: 1rem;
+}
+
+.quarterly-dropdown-section summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quarterly-dropdown-section a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #004080;
+  text-decoration: none;
+}
+
+.quarterly-dropdown-section a:hover {
+  text-decoration: underline;
+}
+
+/* Center and style logos */
+.quarterly-logo {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 160px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .quarterly-top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
