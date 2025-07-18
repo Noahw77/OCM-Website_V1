@@ -1,10 +1,11 @@
-
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
+/* HERO SECTION */
 .hero-section {
   text-align: center;
   padding: 2rem 1rem;
@@ -22,6 +23,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .hero-graphic-placeholder {
@@ -38,50 +41,85 @@ body {
   text-align: left;
 }
 
+/* DROPDOWN SECTION */
 .dropdown-section {
   background-color: #e6eff7;
-  padding: 2rem 1rem;
-  text-align: center;
+  padding: 3rem 1rem;
 }
 
 .dropdown-section details {
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   max-width: 600px;
-  background: white;
+  background: #387cab; /* dark blue */
   border-radius: 6px;
-  padding: 1rem;
-  text-align: left;
+  padding: 1rem 1.25rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.dropdown-section summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.dropdown-section summary::after {
+  content: "▾";
+  position: absolute;
+  right: 0;
+  font-size: 1.2rem;
+}
+
+.dropdown-section details[open] summary::after {
+  content: "▴";
 }
 
 .dropdown-section ul {
   padding-left: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.dropdown-section li {
+  margin-bottom: 0.75rem;
 }
 
 .dropdown-section a {
   text-decoration: none;
-  color: #003366;
+  color: white;
+  background-color: #2c507c;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .dropdown-section a:hover {
-  text-decoration: underline;
+  background-color: #244463;
 }
 
+/* DISCLAIMER SECTION */
 .disclaimer-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
+  background-color: #fff;
 }
 
 .disclaimer-logo {
-  max-height: 100px;
+  max-height: 80px;
 }
 
 .disclaimer-text {
   flex: 1;
-  min-width: 200px;
+  min-width: 280px;
+  max-width: 600px;
 }
 
 .disclaimer-graphic-placeholder {
@@ -91,4 +129,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
