@@ -195,3 +195,44 @@ footer nav a {
     font-size: 1.5rem;
   }
 }
+.quote {
+  background-color: #fff;
+  color: var(--dark-blue);
+  padding: 4rem 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.quote-image {
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.quote-text {
+  max-width: 600px;
+  font-size: 1.2rem;
+}
+
+.quote-text blockquote {
+  font-style: italic;
+  margin: 0;
+}
+
+.quote-text span {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  color: var(--mid-blue);
+}
