@@ -37,36 +37,27 @@ a {
   padding: 3rem 1rem;
 }
 
-.philosophy {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.strategies {
+  background-color: #2c507c;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.strategy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem;
-  padding: 4rem 2rem;
-  background: #f4f8fc;
+  max-width: 1000px;
+  margin: 2rem auto 0;
 }
 
-.philosophy.alt {
-  background: #e6eff7;
-}
-
-.philosophy-text {
-  max-width: 500px;
-  flex: 1;
-}
-
-.philosophy-graphic {
-  width: 300px;
-  height: 200px;
-  background-color: #cfdfea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #2c507c;
-  font-weight: bold;
-  font-size: 1rem;
-  flex-shrink: 0;
+.strategy {
+  background: #98bcd2;
+  color: #000;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .quote {
