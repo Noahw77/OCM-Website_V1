@@ -128,3 +128,47 @@ footer nav a {
     font-size: 1.5rem;
   }
 }
+
+.blog-section {
+  background-color: var(--light-blue);
+  padding: 2rem 1rem;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.blog-card {
+  background: white;
+  color: #000;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.view-all {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.view-all a {
+  display: inline-block;
+  border: 2px solid var(--mid-blue);
+  color: var(--dark-blue);
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: var(--light-blue);
+}
+
+.social-feeds {
+  background-color: var(--light-blue);
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
