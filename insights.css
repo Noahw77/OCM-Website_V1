@@ -174,3 +174,18 @@ footer nav a {
   text-align: center;
   margin-top: 0;
 }
+
+/* Tighter spacing between blog and social feeds */
+.blog-section {
+  padding-bottom: 1rem; /* Add a bit of spacing if you want breathing room */
+  margin-bottom: 0;
+}
+
+.view-all {
+  margin-bottom: 1rem; /* optional, can be removed entirely if not used */
+}
+
+.social-feeds {
+  margin-top: 0;
+  padding-top: 1rem;  /* was 3rem — now much tighter */
+}

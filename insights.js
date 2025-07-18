@@ -1,10 +1,9 @@
-
 document.addEventListener("DOMContentLoaded", function () {
   fetch("blog.json")
     .then(response => response.json())
     .then(data => {
       const sorted = data.sort((a, b) => new Date(b.date) - new Date(a.date));
-      const recentPosts = sorted.slice(0, 4);
+      const recentPosts = sorted.slice(0, 3); // Limit to 3 posts
       const container = document.querySelector(".blog-grid");
       container.innerHTML = "";
 
@@ -20,8 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
         container.appendChild(card);
       });
 
-      const archiveLink = document.createElement("p");
-      archiveLink.innerHTML = `<a href="blog-archive.html">View All Posts</a>`;
-      container.appendChild(archiveLink);
+      // Removed dynamically added "View All Posts" link
     });
 });
