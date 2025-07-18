@@ -1,76 +1,94 @@
 
-/* Quarterly Reports Page Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-/* Section Layout */
-.quarterly-top-section, .quarterly-disclaimer-section {
+.hero-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.hero-logo {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+.hero-content {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 3rem 2rem;
-}
-
-.quarterly-top-section {
-  flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.quarterly-top-section .report-logo,
-.quarterly-disclaimer-section .disclaimer-logo {
-  max-width: 160px;
-  height: auto;
-  margin-bottom: 1rem;
+.hero-graphic-placeholder {
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.quarterly-top-section .report-content,
-.quarterly-disclaimer-section .disclaimer-text {
-  max-width: 600px;
+.hero-text {
+  max-width: 500px;
   text-align: left;
 }
 
-.quarterly-dropdown-section {
+.dropdown-section {
   background-color: #e6eff7;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
-.quarterly-dropdown-section details {
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 1rem;
+.dropdown-section details {
   margin: 1rem auto;
   max-width: 600px;
-  font-size: 1rem;
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: left;
 }
 
-.quarterly-dropdown-section summary {
-  font-weight: bold;
-  cursor: pointer;
+.dropdown-section ul {
+  padding-left: 1rem;
 }
 
-.quarterly-dropdown-section a {
-  display: block;
-  margin: 0.5rem 0;
-  color: #004080;
+.dropdown-section a {
   text-decoration: none;
+  color: #003366;
 }
 
-.quarterly-dropdown-section a:hover {
+.dropdown-section a:hover {
   text-decoration: underline;
 }
 
-/* Center and style logos */
-.quarterly-logo {
-  display: block;
-  margin: 0 auto 1rem;
-  max-width: 160px;
+.disclaimer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
-/* Responsive Tweaks */
-@media (max-width: 768px) {
-  .quarterly-top-section {
-    flex-direction: column;
-    align-items: center;
-  }
+.disclaimer-logo {
+  max-height: 100px;
+}
+
+.disclaimer-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.disclaimer-graphic-placeholder {
+  width: 300px;
+  height: 150px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

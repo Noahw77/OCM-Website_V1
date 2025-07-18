@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,59 +10,37 @@
 <body>
 
   <!-- Header -->
-  <header>
-   <div class="navbar">
-    <a href="/OCM-Website_V1/index.HTML">
-     <img alt="Ochoco Logo" class="logo" src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png"/>
-    </a>
-    <nav class="navbar">
-     <div class="container">
-      <a class="logo-link" href="index.HTML">
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Capital Management Logo" class="logo" />
       </a>
-      <ul class="nav-links">
-       <li>
-        <a href="/OCM-Website_V1/about.html">
-         About
-        </a>
-       </li>
-       <li>
-        <a href="/OCM-Website_V1/performance.html">
-         Performance
-        </a>
-       </li>
-       <li>
-        <a href="/OCM-Website_V1/quarterly-reports.html">
-         Quarterly Reports
-        </a>
-       </li>
-       <li>
-        <a href="/OCM-Website_V1/contact.html">
-         Contact
-        </a>
-       </li>
-      </ul>
-     </div>
-    </nav>
-   </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="performance.html">Performance</a></li>
+          <li><a href="quarterly-reports.html">Quarterly Reports</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-   <!-- Section 1: Report Overview -->
-  <section class="report-overview">
-    <div class="overview-content">
-      <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Capital Logo" class="section-logo" />
-      <div class="overview-body">
-        <img src="#" alt="Report Graphic" class="section-graphic" />
-        <div class="overview-text">
-          <h2>Quarterly Reports Overview</h2>
-          <p>This section provides access to our latest performance breakdowns and investment analyses. Please explore the reports organized by year below.</p>
-        </div>
+  <!-- Section 1: Hero -->
+  <section class="hero-section">
+    <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Capital Logo" class="hero-logo" />
+    <div class="hero-content">
+      <div class="hero-graphic-placeholder">[ Report Graphic Placeholder ]</div>
+      <div class="hero-text">
+        <h1>Quarterly Reports Overview</h1>
+        <p>This section provides access to our latest performance breakdowns and investment analyses. Please explore the reports organized by year below.</p>
       </div>
     </div>
   </section>
 
-  <!-- Section 2: Reports Dropdown -->
-  <section class="report-dropdown-section">
-    <details class="dropdown-box">
+  <!-- Section 2: Dropdowns -->
+  <section class="dropdown-section">
+    <details>
       <summary>2025 Reports</summary>
       <ul>
         <li><a href="#" target="_blank">Q1 2025</a></li>
@@ -72,7 +49,7 @@
         <li><a href="#" target="_blank">Q4 2025</a></li>
       </ul>
     </details>
-    <details class="dropdown-box">
+    <details>
       <summary>2024 Reports</summary>
       <ul>
         <li><a href="#" target="_blank">Q1 2024</a></li>
@@ -84,44 +61,29 @@
   </section>
 
   <!-- Section 3: Disclaimer -->
-  <section class="report-disclaimer">
-    <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Capital Logo" class="section-logo" />
-    <div class="disclaimer-body">
-      <p class="disclaimer-text">
-        Disclaimer: The information provided in these reports is for informational purposes only and does not constitute investment advice. Past performance is not indicative of future results.
-      </p>
-      <img src="#" alt="Disclaimer Graphic" class="section-graphic" />
+  <section class="disclaimer-section">
+    <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Capital Logo" class="disclaimer-logo" />
+    <div class="disclaimer-text">
+      <p>The information provided in these reports is for informational purposes only and does not constitute investment advice. Past performance is not indicative of future results.</p>
     </div>
+    <div class="disclaimer-graphic-placeholder">[ Disclaimer Graphic Placeholder ]</div>
   </section>
 
   <!-- Footer -->
-   <footer>
-   <div class="footer-logo">
-    <img alt="Ochoco Capital Management Logo" class="logo" src="https://i.ibb.co/svKwJbrW/ochoco-capital-management-LOGO.png"/>
-   </div>
-   <div class="footer-container">
-    <ul class="footer-links">
-    </ul>
-   </div>
-   <div class="footer-links">
-    <a class="logo-link" href="/OCM-Website_V1/index.HTML">
-    </a>
-    <a href="/OCM-Website_V1/about.html">
-     About
-    </a>
-    <a href="/OCM-Website_V1/performance.html">
-     Performance
-    </a>
-    <a href="/OCM-Website_V1/quarterly-reports.html">
-     Quarterly Reports
-    </a>
-    <a href="/OCM-Website_V1/contact.html">
-     Contact
-    </a>
-   </div>
-  </footer>
- </body>
-</html>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="https://i.ibb.co/21Kgq8HN/ochoco-capital-management-LOGO-horizontal.png" alt="Ochoco Capital Logo" class="logo" />
+        </a>
+      </div>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="performance.html">Performance</a></li>
+        <li><a href="quarterly-reports.html">Quarterly Reports</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </footer>
 
 </body>
