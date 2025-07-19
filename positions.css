@@ -16,10 +16,23 @@
 .positions-page .intro {
   margin-bottom: 2rem;
   text-align: center;
+  background-color: #f0f6fb;
+  padding: 2rem;
+  border-radius: 8px;
 }
 
 .positions-section {
   margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.positions-section:nth-of-type(odd) {
+  background-color: #f7fbfd;
+}
+
+.positions-section:nth-of-type(even) {
+  background-color: #e6eff7;
 }
 
 .positions-section img {
@@ -27,7 +40,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .cta {
@@ -47,9 +60,14 @@
   margin: 1rem auto;
 }
 
-.cta .contact-link {
-  display: inline-block;
+.cta .contact-text {
   margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.cta .contact-button {
+  display: inline-block;
+  margin-top: 0.5rem;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   border: 2px solid var(--mid-blue);
@@ -59,7 +77,7 @@
   transition: all 0.3s ease;
 }
 
-.cta .contact-link:hover {
+.cta .contact-button:hover {
   background-color: var(--dark-blue);
   transform: scale(1.05);
 }
