@@ -1,8 +1,5 @@
 
 .positions-page {
-  padding: 2rem 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
   font-family: var(--font);
   color: var(--dark-blue);
 }
@@ -13,18 +10,19 @@
   color: var(--dark-blue);
 }
 
-.positions-page .intro {
-  margin-bottom: 2rem;
-  text-align: center;
-  background-color: #f0f6fb;
-  padding: 2rem;
-  border-radius: 8px;
+.intro,
+.positions-section,
+.cta {
+  padding: 2rem 1rem;
 }
 
-.positions-section {
-  margin: 3rem 0;
-  padding: 2rem;
-  border-radius: 8px;
+.section-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: #f0f6fb;
 }
 
 .positions-section:nth-of-type(odd) {
@@ -45,11 +43,9 @@
 
 .cta {
   background-color: var(--light-blue);
-  border: 2px solid var(--mid-blue);
-  padding: 2rem;
-  border-radius: 8px;
+  border-top: 2px solid var(--mid-blue);
+  border-bottom: 2px solid var(--mid-blue);
   text-align: center;
-  margin-top: 4rem;
 }
 
 .cta ul {
