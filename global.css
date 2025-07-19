@@ -27,6 +27,14 @@ a {
   border-bottom: 1px solid #ddd;
 }
 
+body, html {
+  overflow-x: visible;
+}
+
+.sticky-header {
+  min-height: 60px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
