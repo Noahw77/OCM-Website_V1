@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investment Strategy | Ochoco Capital Management</title>
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="positions.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main class="positions-page">
+    <section class="intro">
+      <h1>Our Investment Approach</h1>
+      <p>At Ochoco Capital Management, we seek to capitalize on inefficiencies in market timing by focusing on long-term value creation and disciplined portfolio construction. Below we outline our core style, philosophy, and investment process.</p>
+    </section>
+
+    <section class="positions-section">
+      <h2>Investment Style</h2>
+      <img src="ocm_page_7.png" alt="Investment Style" />
+    </section>
+
+    <section class="positions-section">
+      <h2>Investment Philosophy & Rules</h2>
+      <img src="ocm_page_8.png" alt="Investment Philosophy and Rules" />
+    </section>
+
+    <section class="positions-section">
+      <h2>Investment Process</h2>
+      <img src="ocm_page_9.png" alt="Investment Process" />
+    </section>
+
+    <section class="cta">
+      <h2>Invest With Confidence</h2>
+      <p>Ochoco Capital Fund, LP is open to accredited investors with a minimum investment of $500,000.</p>
+      <ul>
+        <li>No management or entry fees</li>
+        <li>20% performance fee only on returns above 5%</li>
+        <li>High-water mark reset at 20% of any losses</li>
+        <li>Monthly performance updates and quarterly letters</li>
+        <li>Permanent investment from founder of $2M</li>
+      </ul>
+      <p>To learn more, <a href="contact.html" class="contact-link">reach out to us</a> today.</p>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script>
+    fetch("header.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("header-placeholder").innerHTML = data;
+      });
+
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+</body>
+</html>

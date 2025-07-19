@@ -1,0 +1,65 @@
+
+.positions-page {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: var(--font);
+  color: var(--dark-blue);
+}
+
+.positions-page h1,
+.positions-page h2 {
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.positions-page .intro {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.positions-section {
+  margin: 3rem 0;
+}
+
+.positions-section img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.cta {
+  background-color: var(--light-blue);
+  border: 2px solid var(--mid-blue);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.cta ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.cta .contact-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  border: 2px solid var(--mid-blue);
+  background-color: var(--mid-blue);
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta .contact-link:hover {
+  background-color: var(--dark-blue);
+  transform: scale(1.05);
+}
